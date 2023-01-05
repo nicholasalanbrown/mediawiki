@@ -135,6 +135,7 @@ wfLoadExtension( 'Cargo' );
 wfLoadExtension( 'AWS' );
 wfLoadExtension( 'PageForms' );
 wfLoadExtension( 'VisualEditor' );
+wfLoadExtension( 'VEForAll' );
 
 # Configure S3 storage for images
 $wgAWSCredentials = [
