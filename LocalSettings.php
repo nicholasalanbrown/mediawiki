@@ -134,6 +134,7 @@ wfLoadSkin( 'Vector' );
 wfLoadExtension( 'Cargo' );
 wfLoadExtension( 'AWS' );
 wfLoadExtension( 'PageForms' );
+wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'VEForAll' );
 
