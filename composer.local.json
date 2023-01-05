@@ -1,0 +1,12 @@
+{
+	"extra": {
+		"merge-plugin": {
+			"include": [
+				"extensions/AWS/composer.json"
+			]
+		}
+	},
+	"require": {
+		"mediawiki/page-forms": "^5.5.1"
+	}
+}
