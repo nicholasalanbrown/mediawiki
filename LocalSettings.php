@@ -116,6 +116,16 @@ $wgRightsUrl = "";
 $wgRightsText = "";
 $wgRightsIcon = "";
 
+# Shared memory settings
+$wgMainCacheType = CACHE_ACCEL;
+$wgMessageCacheType = CACHE_ACCEL;
+$wgCacheDirectory = 'cache/';
+$wgUseLocalMessageCache = true;
+$wgParserCacheType = CACHE_DB;
+$wgMemCachedServers = [];
+$wgUseGzip = true;
+$wgEnableSidebarCache = true;
+
 # Path to the GNU diff3 utility. Used for conflict resolution.
 $wgDiff3 = "/usr/bin/diff3";
 
