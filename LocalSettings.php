@@ -29,7 +29,7 @@ $wgSitename = "Civable";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "https://openlaw-mediawiki.herokuapp.com";
+$wgServer = "https://18.221.184.130";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
