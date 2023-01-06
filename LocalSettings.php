@@ -145,6 +145,6 @@ $wgAWSCredentials = [
 	'token' => false
 ];
 
-$wgAWSRegion = 'us-east-1';
+$wgAWSRegion = 'us-east-2';
 
 $wgAWSBucketName = "civable-s3";
