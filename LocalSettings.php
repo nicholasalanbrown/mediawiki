@@ -126,6 +126,14 @@ $wgMemCachedServers = [];
 $wgUseGzip = true;
 $wgEnableSidebarCache = true;
 
+# NO DB HITS!
+$wgDisableCounters = true;
+$wgMiserMode = true;
+
+# Text cache
+$wgRevisionCacheExpiry = 3*24*3600;
+$wgParserCacheExpireTime = 14*24*3600;
+
 # Path to the GNU diff3 utility. Used for conflict resolution.
 $wgDiff3 = "/usr/bin/diff3";
 
