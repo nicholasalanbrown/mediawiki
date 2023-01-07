@@ -29,7 +29,7 @@ $wgSitename = "Civable";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "https://18.221.184.130";
+$wgServer = "https://civable.com/";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
