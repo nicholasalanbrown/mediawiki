@@ -155,6 +155,7 @@ wfLoadExtension( 'PageForms' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'VEForAll' );
+wfLoadExtension( 'CategoryTree' );
 
 # Configure S3 storage for images
 $wgAWSCredentials = [
