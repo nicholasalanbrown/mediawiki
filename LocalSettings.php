@@ -157,6 +157,8 @@ wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'VEForAll' );
 wfLoadExtension( 'CategoryTree' );
 wfLoadExtension( 'intersection' );
+wfLoadExtension( 'DynamicPageList3' );
+
 
 # Configure S3 storage for images
 $wgAWSCredentials = [
