@@ -158,6 +158,7 @@ wfLoadExtension( 'VEForAll' );
 wfLoadExtension( 'CategoryTree' );
 wfLoadExtension( 'intersection' );
 wfLoadExtension( 'DynamicPageList3' );
+wfLoadExtension( 'Variables' );
 
 
 # Configure S3 storage for images
