@@ -160,6 +160,7 @@ wfLoadExtension( 'intersection' );
 wfLoadExtension( 'DynamicPageList3' );
 wfLoadExtension( 'Variables' );
 wfLoadExtension( 'DataTransfer' );
+wfLoadExtension( 'AutoCreateCategoryPages' );
 
 
 # Configure S3 storage for images
