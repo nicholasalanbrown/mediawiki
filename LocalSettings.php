@@ -145,7 +145,7 @@ $wgHiddenPrefs[] = 'skin';
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'MinervaNeue' );
-wfLoadSkin( 'Vector' );
+wfLoadSkin( 'vector-2022' );
 
 
 # Load extensions
