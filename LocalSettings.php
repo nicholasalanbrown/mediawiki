@@ -139,14 +139,13 @@ $wgDiff3 = "/usr/bin/diff3";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
-$wgDefaultSkin = "vector";
-$wgHiddenPrefs[] = 'skin';
 
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'MinervaNeue' );
-wfLoadSkin( 'vector-2022' );
-
+wfLoadSkin( 'vector' );
+$wgDefaultSkin = "vector-2022";
+$wgHiddenPrefs[] = 'skin';
 
 # Load extensions
 wfLoadExtension( 'Cargo' );
