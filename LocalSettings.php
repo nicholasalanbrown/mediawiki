@@ -29,7 +29,7 @@ $wgSitename = "Civable";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "https://civable.com/";
+$wgServer = "http://localhost:8888/";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -155,9 +155,7 @@ wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'VEForAll' );
 wfLoadExtension( 'CategoryTree' );
-wfLoadExtension( 'intersection' );
 wfLoadExtension( 'DynamicPageList3' );
-wfLoadExtension( 'Variables' );
 wfLoadExtension( 'DataTransfer' );
 wfLoadExtension( 'AutoCreateCategoryPages' );
 
