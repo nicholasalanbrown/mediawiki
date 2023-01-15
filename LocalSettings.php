@@ -153,7 +153,7 @@ $wgHiddenPrefs[] = 'skin';
 
 # Load extensions
 wfLoadExtension( 'Cargo' );
-wfLoadExtension( 'AWS' );
+
 wfLoadExtension( 'PageForms' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'VisualEditor' );
