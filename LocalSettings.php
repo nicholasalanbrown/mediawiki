@@ -171,3 +171,9 @@ $wgAWSCredentials = [
 $wgAWSRegion = 'us-east-2';
 
 $wgAWSBucketName = "civable-s3";
+
+error_reporting( -1 );
+ini_set( 'display_errors', 1 );
+
+$wgShowExceptionDetails = true;
+$wgShowDBErrorBacktrace = true;
