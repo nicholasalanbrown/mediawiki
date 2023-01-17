@@ -163,6 +163,7 @@ wfLoadExtension( 'DynamicPageList3' );
 wfLoadExtension( 'DataTransfer' );
 wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
+wfLoadExtension( 'DeleteBatch' );
 
 
 # Configure S3 storage for images
