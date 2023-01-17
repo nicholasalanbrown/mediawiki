@@ -164,6 +164,7 @@ wfLoadExtension( 'DataTransfer' );
 wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'DeleteBatch' );
+wfLoadExtension( 'Nuke' );
 
 
 # Configure S3 storage for images
