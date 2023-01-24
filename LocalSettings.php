@@ -45,6 +45,29 @@ $wgLogos = [
 	'icon' => "https://upload.wikimedia.org/wikipedia/commons/6/6c/Government_icon_%28black%29.svg",
 ];
 
+## Add custom namespaces
+define("NS_COUNTRY", 3000);
+define("NS_COUNTRY_TALK", 3001);
+define("NS_REGION", 3002);
+define("NS_REGION_TALK", 3003);
+define("NS_CITY", 3004);
+define("NS_CITY_TALK", 3005);
+define("NS_PROP", 3006);
+define("NS_PROP_TALK", 3007);
+define("NS_NEED", 3008);
+define("NS_NEED_TALK", 3009);
+
+$wgExtraNamespaces[NS_COUNTRY] = "Country";
+$wgExtraNamespaces[NS_COUNTRY_TALK] = "Country_talk";
+$wgExtraNamespaces[NS_REGION] = "Region";
+$wgExtraNamespaces[NS_REGION_TALK] = "Region_talk";
+$wgExtraNamespaces[NS_CITY] = "City";
+$wgExtraNamespaces[NS_CITY_TALK] = "City_talk";
+$wgExtraNamespaces[NS_PROP] = "Prop";
+$wgExtraNamespaces[NS_PROP_TALK] = "Prop_talk";
+$wgExtraNamespaces[NS_NEED] = "Need";
+$wgExtraNamespaces[NS_NEED_TALK] = "Need_talk";
+
 ## UPO means: this is also a user preference option
 
 $wgEnableEmail = true;
@@ -163,7 +186,6 @@ wfLoadExtension( 'DynamicPageList3' );
 wfLoadExtension( 'DataTransfer' );
 wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
-wfLoadExtension( 'DeleteBatch' );
 wfLoadExtension( 'Nuke' );
 
 
