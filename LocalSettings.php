@@ -176,7 +176,6 @@ $wgHiddenPrefs[] = 'skin';
 
 # Load extensions
 wfLoadExtension( 'Cargo' );
-
 wfLoadExtension( 'PageForms' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'VisualEditor' );
@@ -191,6 +190,9 @@ wfLoadExtension( 'Nuke' );
 # Enable display titles
 $wgAllowDisplayTitle = true;
 $wgRestrictDisplayTitle = false;
+
+# Enable string functions
+$wgPFEnableStringFunctions = true;
 
 # Configure S3 storage for images
 $wgAWSCredentials = [
