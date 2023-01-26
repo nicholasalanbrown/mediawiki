@@ -189,6 +189,7 @@ wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
 
 # Enable display titles
+$wgAllowDisplayTitle = true;
 $wgRestrictDisplayTitle = false;
 
 # Configure S3 storage for images
