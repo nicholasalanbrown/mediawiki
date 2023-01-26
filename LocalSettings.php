@@ -186,7 +186,6 @@ wfLoadExtension( 'DynamicPageList3' );
 wfLoadExtension( 'DataTransfer' );
 wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
-wfLoadExtension( 'HidePrefix' );
 wfLoadExtension( 'Nuke' );
 
 # Enable display titles
