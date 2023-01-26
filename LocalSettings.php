@@ -188,6 +188,8 @@ wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
 
+# Enable display titles
+$wgRestrictDisplayTitle = false;
 
 # Configure S3 storage for images
 $wgAWSCredentials = [
