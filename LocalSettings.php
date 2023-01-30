@@ -186,6 +186,7 @@ wfLoadExtension( 'DataTransfer' );
 wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
+wfLoadExtension( 'UrlGetParameters' );
 
 # Enable display titles
 $wgAllowDisplayTitle = true;
