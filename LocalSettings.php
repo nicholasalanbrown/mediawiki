@@ -188,6 +188,17 @@ wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
 wfLoadExtension( 'UrlGetParameters' );
 
+# add Cargo fields
+$wgCargoPageDataColumns = [
+	'_creationDate',
+	'_modificationDate',
+	'_creator',
+	'_fullText',
+	'_categories',
+	'_numRevisions',
+	'_isRedirect'
+];
+
 # Enable display titles
 $wgAllowDisplayTitle = true;
 $wgRestrictDisplayTitle = false;
