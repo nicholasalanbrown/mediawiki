@@ -176,6 +176,10 @@ $wgHiddenPrefs[] = 'skin';
 
 # Load extensions
 wfLoadExtension( 'Cargo' );
+$wgCargoPageDataColumns[] = 'creationDate';
+$wgCargoPageDataColumns[] = 'modificationDate';
+$wgCargoPageDataColumns[] = 'numRevisions';
+
 wfLoadExtension( 'PageForms' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'VisualEditor' );
@@ -188,16 +192,6 @@ wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
 wfLoadExtension( 'UrlGetParameters' );
 
-# add Cargo fields
-$wgCargoPageDataColumns = [
-	'_creationDate',
-	'_modificationDate',
-	'_creator',
-	'_fullText',
-	'_categories',
-	'_numRevisions',
-	'_isRedirect'
-];
 
 # Enable display titles
 $wgAllowDisplayTitle = true;
