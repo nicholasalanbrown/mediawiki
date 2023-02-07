@@ -56,6 +56,8 @@ define("NS_PROP", 3006);
 define("NS_PROP_TALK", 3007);
 define("NS_NEED", 3008);
 define("NS_NEED_TALK", 3009);
+define("NS_TOPIC", 3010);
+define("NS_TOPIC_TALK", 3011);
 
 $wgExtraNamespaces[NS_COUNTRY] = "Country";
 $wgExtraNamespaces[NS_COUNTRY_TALK] = "Country_talk";
@@ -67,6 +69,8 @@ $wgExtraNamespaces[NS_PROP] = "Prop";
 $wgExtraNamespaces[NS_PROP_TALK] = "Prop_talk";
 $wgExtraNamespaces[NS_NEED] = "Need";
 $wgExtraNamespaces[NS_NEED_TALK] = "Need_talk";
+$wgExtraNamespaces[NS_TOPIC] = "Topic";
+$wgExtraNamespaces[NS_TOPIC_TALK] = "Topic_talk";
 
 ## UPO means: this is also a user preference option
 
