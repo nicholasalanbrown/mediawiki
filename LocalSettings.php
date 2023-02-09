@@ -198,7 +198,7 @@ wfLoadSkin( 'Citizen' );
 wfLoadSkin( 'Tweeki' );
 
 $wgCitizenUseNumberFormatter = false;
-$wgDefaultSkin = "Citizen";
+$wgDefaultSkin = "Tweeki";
 # d$wgHiddenPrefs[] = 'skin';
 
 # Enable display titles
