@@ -194,10 +194,8 @@ wfLoadExtension( 'UrlGetParameters' );
 wfLoadSkin( 'MinervaNeue' );
 wfLoadSkin( 'Vector' );
 wfLoadSkin( 'Medik' );
-wfLoadSkin( 'Citizen' );
 wfLoadSkin( 'Tweeki' );
 
-$wgCitizenUseNumberFormatter = false;
 $wgDefaultSkin = "Tweeki";
 # d$wgHiddenPrefs[] = 'skin';
 
