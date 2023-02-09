@@ -179,6 +179,7 @@ wfLoadSkin( 'Medik' );
 wfLoadSkin( 'Citizen' );
 wfLoadSkin( 'Tweeki' );
 $wgDefaultSkin = "Citizen";
+$wgCitizenUseNumberFormatter = false
 // $wgHiddenPrefs[] = 'skin';
 
 # Load extensions
