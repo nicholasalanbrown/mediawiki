@@ -175,8 +175,9 @@ $wgDiff3 = "/usr/bin/diff3";
 # The following skins were automatically enabled:
 wfLoadSkin( 'MinervaNeue' );
 wfLoadSkin( 'Vector' );
-$wgDefaultSkin = "vector-2022";
-$wgHiddenPrefs[] = 'skin';
+wfLoadSkin( 'Medik' );
+$wgDefaultSkin = "Medik";
+// $wgHiddenPrefs[] = 'skin';
 
 # Load extensions
 wfLoadExtension( 'Cargo' );
