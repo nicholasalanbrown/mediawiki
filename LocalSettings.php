@@ -178,7 +178,7 @@ wfLoadSkin( 'Vector' );
 wfLoadSkin( 'Medik' );
 wfLoadSkin( 'Citizen' );
 wfLoadSkin( 'Tweeki' );
-$wgDefaultSkin = "citizen";
+$wgDefaultSkin = "Tweeki";
 // $wgHiddenPrefs[] = 'skin';
 
 # Load extensions
