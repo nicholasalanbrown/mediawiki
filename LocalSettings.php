@@ -196,7 +196,7 @@ wfLoadSkin( 'Vector' );
 wfLoadSkin( 'Medik' );
 wfLoadSkin( 'Tweeki' );
 
-$wgDefaultSkin = "Tweeki";
+$wgDefaultSkin = "Vector";
 # d$wgHiddenPrefs[] = 'skin';
 
 # Enable display titles
