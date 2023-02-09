@@ -194,9 +194,11 @@ wfLoadExtension( 'UrlGetParameters' );
 wfLoadSkin( 'MinervaNeue' );
 wfLoadSkin( 'Vector' );
 wfLoadSkin( 'Medik' );
-# wfLoadSkin( 'Citizen' );
+wfLoadSkin( 'Citizen' );
 wfLoadSkin( 'Tweeki' );
-$wgDefaultSkin = "Tweeki";
+
+$wgCitizenUseNumberFormatter = false;
+$wgDefaultSkin = "Citizen";
 # d$wgHiddenPrefs[] = 'skin';
 
 # Enable display titles
