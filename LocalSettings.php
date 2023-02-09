@@ -171,17 +171,6 @@ $wgDiff3 = "/usr/bin/diff3";
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
 
-# Enabled skins.
-# The following skins were automatically enabled:
-wfLoadSkin( 'MinervaNeue' );
-wfLoadSkin( 'Vector' );
-wfLoadSkin( 'Medik' );
-wfLoadSkin( 'Citizen' );
-wfLoadSkin( 'Tweeki' );
-$wgDefaultSkin = "Citizen";
-$wgCitizenUseNumberFormatter = false
-// $wgHiddenPrefs[] = 'skin';
-
 # Load extensions
 wfLoadExtension( 'Cargo' );
 $wgCargoPageDataColumns[] = 'creationDate';
@@ -200,6 +189,15 @@ wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
 wfLoadExtension( 'UrlGetParameters' );
 
+# Enabled skins.
+# The following skins were automatically enabled:
+wfLoadSkin( 'MinervaNeue' );
+wfLoadSkin( 'Vector' );
+wfLoadSkin( 'Medik' );
+# wfLoadSkin( 'Citizen' );
+wfLoadSkin( 'Tweeki' );
+$wgDefaultSkin = "Tweeki";
+# d$wgHiddenPrefs[] = 'skin';
 
 # Enable display titles
 $wgAllowDisplayTitle = true;
