@@ -176,7 +176,8 @@ $wgDiff3 = "/usr/bin/diff3";
 wfLoadSkin( 'MinervaNeue' );
 wfLoadSkin( 'Vector' );
 wfLoadSkin( 'Medik' );
-$wgDefaultSkin = "Medik";
+wfLoadSkin( 'Citizen' );
+$wgDefaultSkin = "Citizen";
 // $wgHiddenPrefs[] = 'skin';
 
 # Load extensions
