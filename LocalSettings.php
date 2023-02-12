@@ -188,8 +188,6 @@ wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
 wfLoadExtension( 'UrlGetParameters' );
-wfLoadExtension( 'TinyMCE' );
-$wgTinyMCEEnabled = true;
 
 # Enabled skins.
 # The following skins were automatically enabled:
