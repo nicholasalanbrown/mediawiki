@@ -199,6 +199,8 @@ wfLoadSkin( 'Tweeki' );
 wfLoadSkin( 'chameleon' );
 
 $wgDefaultSkin = "chameleon";
+$egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/stickyhead.xml';
+
 # d$wgHiddenPrefs[] = 'skin';
 
 # Enable display titles
