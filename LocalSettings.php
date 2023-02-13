@@ -188,6 +188,7 @@ wfLoadExtension( 'AutoCreateCategoryPages' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Nuke' );
 wfLoadExtension( 'UrlGetParameters' );
+wfLoadExtension( 'Bootstrap' );
 
 # Enabled skins.
 # The following skins were automatically enabled:
@@ -195,8 +196,9 @@ wfLoadSkin( 'MinervaNeue' );
 wfLoadSkin( 'Vector' );
 wfLoadSkin( 'Medik' );
 wfLoadSkin( 'Tweeki' );
+wfLoadSkin( 'chameleon' );
 
-$wgDefaultSkin = "Tweeki";
+$wgDefaultSkin = "chameleon";
 # d$wgHiddenPrefs[] = 'skin';
 
 # Enable display titles

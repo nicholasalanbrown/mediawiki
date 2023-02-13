@@ -1,0 +1,10 @@
+{
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
+        }
+    },
+    "require": {
+        "mediawiki/chameleon-skin": "~4.0"
+    }
+}
