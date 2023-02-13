@@ -40,10 +40,10 @@ $wgResourceBasePath = $wgScriptPath;
 
 ## The URL paths to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogos = [
-	'1x' => "https://upload.wikimedia.org/wikipedia/commons/6/6c/Government_icon_%28black%29.svg",
-	'icon' => "https://upload.wikimedia.org/wikipedia/commons/6/6c/Government_icon_%28black%29.svg",
-];
+## $wgLogos = [
+##	'1x' => "https://upload.wikimedia.org/wikipedia/commons/6/6c/Government_icon_%28black%29.svg",
+##	'icon' => "https://upload.wikimedia.org/wikipedia/commons/6/6c/Government_icon_%28black%29.svg",
+## ];
 
 ## Add custom namespaces
 define("NS_COUNTRY", 3000);
