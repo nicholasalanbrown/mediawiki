@@ -200,6 +200,10 @@ wfLoadSkin( 'chameleon' );
 
 $wgDefaultSkin = "chameleon";
 $egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/stickyhead.xml';
+$egChameleonThemeFile = __DIR__ . '/themes/zephyr.scss';
+$egChameleonExternalStyleModules = [
+	__DIR__ . '/themes/zephyr_bootswatch.scss' => 'afterMain',
+];
 
 # d$wgHiddenPrefs[] = 'skin';
 
