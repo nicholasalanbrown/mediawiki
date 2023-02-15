@@ -33,8 +33,8 @@ $wgSitename = "Civable";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-## $wgServer = "https://www.civable.com/";
-$wgServer = "http://localhost:8888/";
+$wgServer = "https://www.civable.com/";
+## $wgServer = "http://localhost:8888/";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -87,13 +87,13 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-## $wgDBserver = "mediawiki-mysql.cs8muc6vydab.us-east-2.rds.amazonaws.com";
-$wgDBserver = "localhost";
+$wgDBserver = "mediawiki-mysql.cs8muc6vydab.us-east-2.rds.amazonaws.com";
+## $wgDBserver = "localhost";
 $wgDBname = "mysql_db";
-## $wgDBuser = "admin";
-$wgDBuser = "root";
-## $wgDBpassword = "JLpGyVsLQmgm1jcNAFOG";
-$wgDBpassword = "root";
+$wgDBuser = "admin";
+## $wgDBuser = "root";
+$wgDBpassword = "JLpGyVsLQmgm1jcNAFOG";
+## $wgDBpassword = "root";
 
 # MySQL specific settings
 $wgDBprefix = "";
