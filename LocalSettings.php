@@ -33,7 +33,8 @@ $wgSitename = "Civable";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "https://civable.com/";
+## $wgServer = "https://www.civable.com/";
+$wgServer = "http://localhost:8888/";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -86,10 +87,13 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "mediawiki-mysql.cs8muc6vydab.us-east-2.rds.amazonaws.com";
+## $wgDBserver = "mediawiki-mysql.cs8muc6vydab.us-east-2.rds.amazonaws.com";
+$wgDBserver = "localhost";
 $wgDBname = "mysql_db";
-$wgDBuser = "admin";
-$wgDBpassword = "JLpGyVsLQmgm1jcNAFOG";
+## $wgDBuser = "admin";
+$wgDBuser = "root";
+## $wgDBpassword = "JLpGyVsLQmgm1jcNAFOG";
+$wgDBpassword = "root";
 
 # MySQL specific settings
 $wgDBprefix = "";
@@ -199,11 +203,14 @@ wfLoadSkin( 'Tweeki' );
 wfLoadSkin( 'chameleon' );
 
 $wgDefaultSkin = "chameleon";
-$egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/stickyhead.xml';
-$egChameleonThemeFile = __DIR__ . '/themes/zephyr.scss';
-$egChameleonExternalStyleModules = [
-	__DIR__ . '/themes/zephyr_bootswatch.scss' => 'afterMain',
+$egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/civable.xml';
+$egChameleonThemeFile = __DIR__ . '/themes/civable_variables.scss';
+$egChameleonExternalStyleModules = [	
+	__DIR__ . '/themes/civable.scss' => 'afterMain',
 ];
+
+## Disable in production:	
+$egScssCacheType = CACHE_NONE;
 
 # d$wgHiddenPrefs[] = 'skin';
 
